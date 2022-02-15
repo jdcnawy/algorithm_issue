@@ -1,0 +1,44 @@
+.centerhead {
+  text-align: center;
+  border: 3px solid green;
+}
+body{
+  background-image: url(backgroundalgo.png);
+   color: white;
+  font-family: 'Redressed', cursive;
+  font-size: 40px;
+}
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+}
+
+div.d {
+  text-align: justify;
+}
+
+.navbar {
+    position: fixed;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+div.navbar{
+  display:block
+}
